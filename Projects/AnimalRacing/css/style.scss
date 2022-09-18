@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0%;
+  h1 {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+#race-controls {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#race-results {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+
+#dog,
+#horse,
+#duck,
+#chick {
+  position: relative;
+}
+
+.selectedRacer {
+  border: 3px solid red;
+}
+.lockedRacer {
+  border: 3px solid greenyellow;
+}
+.selectedPlayer {
+  border: 3px solid red;
+}
+.lockedPlayer {
+  border: 3px solid greenyellow;
+}
+
+#players {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  border-radius: 1em;
+}

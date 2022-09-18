@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <script src="./ntc.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#titleBigNav"
+            aria-controls="titleBigNav"
+            aria-expanded="false"
+            aria-label="Toggle Navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="titleBigNav">
+            <ul id="navbar-ul" class="nav nav-pills nav-fill">
+              <li class="nav-item" id="pillLink">
+                <a
+                  class="nav-link"
+                  id="pillText"
+                  aria-current="page"
+                  href="../../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="activePill"
+                  href="../ColorPicker/index.html"
+                  >Color Picker</a
+                >
+              </li>
+              <li class="nav-item" id="pillLink">
+                <a
+                  class="nav-link"
+                  id="pillText"
+                  href="../CitySearch/index.html"
+                  >City Search</a
+                >
+              </li>
+
+              <li class="nav-item" id="pillLink">
+                <a
+                  class="nav-link"
+                  id="pillText"
+                  href="../AnimalRacing/index.html"
+                  >Animal Racing</a
+                >
+              </li>
+              <li class="nav-item" id="pillLink">
+                <a class="nav-link" id="pillText" href="../VipTable/index.html"
+                  >VIP Table</a
+                >
+              </li>
+              <li class="nav-item" id="pillLink">
+                <a
+                  class="nav-link"
+                  id="pillText"
+                  href="../TodoManager/index.html"
+                  >Todo Manager</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="user-selection"></div>
+    <br />
+    <div id="text">
+      <h1>Colors :</h1>
+      <h6 style="font-size: smaller">(click on the colors)</h6>
+    </div>
+    <div id="result-colors"></div>
+    <div></div>
+    <div id="favorite-div">
+      <h1>Favorite Colors:</h1>
+      <div id="favorite-colors"></div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

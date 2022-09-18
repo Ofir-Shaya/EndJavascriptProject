@@ -1,0 +1,55 @@
+.main {
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: 1em auto;
+  background-color: lightblue;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+#new-todo {
+  width: 100%;
+}
+#new-todo input {
+  border-radius: 8px;
+  width: 75%;
+}
+#new-todo button {
+  width: 25%;
+}
+
+h3#taskText {
+  display: inline;
+  font-size: medium;
+}
+
+div.task {
+  text-align: left;
+  border: 1px solid black;
+  margin-bottom: 0.5em;
+  border-radius: 0.25em;
+  position: relative;
+  padding: 0.4em;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#sort-todos {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+.task-btn-group {
+  display: inline;
+  justify-content: end;
+  text-align: end;
+  align-content: center;
+  top: 0;
+  right: 0;
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */

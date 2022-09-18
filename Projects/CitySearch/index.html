@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./data.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#titleBigNav"
+            aria-controls="titleBigNav"
+            aria-expanded="false"
+            aria-label="Toggle Navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="titleBigNav">
+            <ul id="navbar-ul" class="nav nav-pills nav-fill">
+              <li class="nav-item" id="pillLink">
+                <a
+                  class="nav-link"
+                  id="pillText"
+                  aria-current="page"
+                  href="../../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item" id="pillLink">
+                <a class="nav-link" id="" href="../ColorPicker/index.html"
+                  >Color Picker</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="activePill"
+                  href="../CitySearch/index.html"
+                  >City Search</a
+                >
+              </li>
+
+              <li class="nav-item" id="pillLink">
+                <a
+                  class="nav-link"
+                  id="pillText"
+                  href="../AnimalRacing/index.html"
+                  >Animal Racing</a
+                >
+              </li>
+              <li class="nav-item" id="pillLink">
+                <a class="nav-link" id="pillText" href="../VipTable/index.html"
+                  >VIP Table</a
+                >
+              </li>
+              <li class="nav-item" id="pillLink">
+                <a
+                  class="nav-link"
+                  id="pillText"
+                  href="../TodoManager/index.html"
+                  >Todo Manager</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="enter-city">
+      <h1>Enter new city:</h1>
+    </div>
+    <div id="search-city">
+      <h1>Search:</h1>
+      <input list="all-city-data" name="all-city-choice" id="all-city-choice" />
+    </div>
+    <div id="show-result">
+      <h1>Result:</h1>
+    </div>
+
+    <div id="show-all">
+      <div id="result-all">
+        <h1>All Cities:</h1>
+      </div>
+    </div>
+    <div
+      id="city-category-ddl"
+      class="dropdown-center dropend"
+      style="display: none"
+    >
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        בחירת קטגוריה לעיר
+      </button>
+      <ul class="dropdown-menu">
+        <li>
+          <button class="dropdown-item btn btn-primary">בעתיד אבקר</button>
+        </li>
+        <li>
+          <button class="dropdown-item btn btn-success">ביקרתי</button>
+        </li>
+        <li>
+          <button class="dropdown-item btn btn-danger">לעולם לא אבקר</button>
+        </li>
+      </ul>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
