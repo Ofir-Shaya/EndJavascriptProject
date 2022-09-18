@@ -4,7 +4,7 @@ const runners = [
     id: 0,
     voice: "woof",
     img: "./pictures/dog.jpg",
-    step: 35,
+    step: 68,
   },
   {
     name: "horse",
@@ -18,13 +18,13 @@ const runners = [
     id: 2,
     voice: "quack",
     img: "./pictures/duck.jpg",
-    step: 35,
+    step: 66,
   },
   {
     name: "chick",
     id: 3,
     voice: "cheap",
     img: "./pictures/chick.png",
-    step: 35,
+    step: 64,
   },
 ];
